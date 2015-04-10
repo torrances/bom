@@ -1,0 +1,12 @@
+<!--
+USE SPRING BOM (Bill of Materials) INSTEAD
+<http://spring.io/blog/2014/06/26/introducing-the-spring-io-platform>
+
+<dependency>
+	<groupId>io.spring.platform</groupId>
+	<artifactId>platform-bom</artifactId>
+	<version>1.0.0.RELEASE</version>
+	<type>pom</type>
+	<scope>import</scope>
+</dependency>
+-->

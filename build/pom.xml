@@ -24,8 +24,14 @@
 	<url>https://github.com/torrances/bom</url>
 
 	<modules>
+		<module>../apache-commons</module>
+		<module>../hadoop</module>
 		<module>../jersey</module>
+		<module>../lucene</module>
 		<module>../mongo</module>
+		<module>../mysql</module>
+		<module>../spring-jpa</module>
+		<module>../stanford</module>
 	</modules>
 
 </project>
