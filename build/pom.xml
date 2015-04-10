@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>bom-dependencies</groupId>
+	<artifactId>bom-dependencies</artifactId>
+	<version>1.0.0</version>
+	<packaging>pom</packaging>
+
+	<name>BOM (Bill of Materials) Dependencies</name>
+	<inceptionYear>2014</inceptionYear>
+	<description>
+		Dependency Management
+		this includes 
+			1. 	POM dependency management for 3rd-party maven-controlled builds
+				these are prefixed with dependency-*
+			2. 	Third party source code
+				if the third party is not "mavenified" then it can be more convenient to 
+				self-compile source code into a JAR file with a custom POM.
+				Jenkins CI tends to have trouble with locally installed JARs at the moment
+				and while this approach might seem like more work than just taking a JAR
+				it makes working with Jenkins *much* easier
+	</description>
+	<url>https://github.com/torrances/bom</url>
+
+	<modules>
+		<module>../jersey</module>
+		<module>../mongo</module>
+	</modules>
+
+</project>

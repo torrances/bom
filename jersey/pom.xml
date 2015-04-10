@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>jersey-bom</groupId>
+	<artifactId>jersey-bom</artifactId>
+	<version>${jersey.version}</version>
+	<packaging>pom</packaging>
+	
+	<name>Jersey BOM</name>
+	<url>https://jersey.java.net/</url>
+	<inceptionYear>2015</inceptionYear>
+	<description>supports REST applications using the Sun Jersey framework</description>
+
+	<properties>
+		<jersey.version>1.9</jersey.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-json</artifactId>
+			<version>${jersey.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-server</artifactId>
+			<version>${jersey.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.sun.jersey</groupId>
+			<artifactId>jersey-client</artifactId>
+			<version>${jersey.version}</version>
+		</dependency>
+	</dependencies>
+
+</project>
