@@ -27,6 +27,7 @@
 		<module>../apache/commons</module>
 		<module>../apache/hadoop</module>
 		<module>../apache/lucene</module>
+		<module>../apache/solr</module>
 		<module>../apache/opennlp</module>
 		<!--module>../spring/framework</module-->
 		<module>../spring/jpa</module>
