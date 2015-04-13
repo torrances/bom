@@ -13,7 +13,7 @@
 	<description>Enterprise Search Server</description>
 
 	<properties>
-		<lucene.version>5.0.0.</lucene.version>
+		<lucene.version>5.0.0</lucene.version>
 	</properties>
 
 	<dependencies>
