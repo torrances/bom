@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>apache-opennlp-bom</groupId>
+	<artifactId>apache-opennlp-bom</artifactId>
+	<version>${org.apache.opennlp.version}</version>
+	<packaging>pom</packaging>
+
+	<url>http://opennlp.apache.org</url>
+	<inceptionYear>2015</inceptionYear>
+	<name>Apache OpenNLP BOM</name>
+	<description>a BOM for OpenNLP</description>
+
+	<properties>
+		<org.apache.opennlp.version>1.5.3</org.apache.opennlp.version>
+		<opennlp-maxent.version>3.0.3</opennlp-maxent.version>
+	</properties>
+	
+	<dependencies>
+		<dependency>
+		  <groupId>org.apache.opennlp</groupId>
+		  <artifactId>opennlp-tools</artifactId>
+		  <version>${org.apache.opennlp.version}</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.apache.opennlp</groupId>
+		  <artifactId>opennlp-uima</artifactId>
+		  <version>${org.apache.opennlp.version}</version>
+		</dependency>
+		<dependency>
+		  <groupId>org.apache.opennlp</groupId>
+		  <artifactId>opennlp-maxent</artifactId>
+		  <version>${opennlp-maxent.version}</version>
+		</dependency>
+	</dependencies>
+	
+</project>
