@@ -31,6 +31,7 @@
 		<module>../apache/opennlp</module>
 		<!--module>../spring/framework</module-->
 		<module>../spring/jpa</module>
+		<module>../spring/data-solr</module>
 		<module>../jersey</module>
 		<module>../mongo</module>
 		<module>../mysql</module>

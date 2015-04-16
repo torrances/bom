@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>spring-data-solr-bom</groupId>
+	<artifactId>spring-data-solr-bom</artifactId>
+	<version>1.4.0</version>
+	<packaging>pom</packaging>
+
+	<url>http://projects.spring.io/spring-data-solr/</url>
+	<inceptionYear>2015</inceptionYear>
+	<name>Spring Data SOLR BOM</name>
+	<description>a BOM for Spring Data SOLR</description>
+
+	<properties>
+		<spring-data-solr.version>1.4.0.RELEASE</spring-data-solr.version>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.springframework.data</groupId>
+			<artifactId>spring-data-solr</artifactId>
+			<version>1.4.0.RELEASE</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.httpcomponents</groupId>
+			<artifactId>httpclient</artifactId>
+			<version>4.4.1</version>
+		</dependency>
+	</dependencies>
+
+</project>
