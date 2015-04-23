@@ -29,7 +29,7 @@
 		<module>../apache/lucene</module>
 		<module>../apache/solr</module>
 		<module>../apache/opennlp</module>
-		<!--module>../spring/framework</module-->
+		<module>../slf4j</module>
 		<module>../spring/jpa</module>
 		<module>../spring/data-solr</module>
 		<module>../jersey</module>
