@@ -33,7 +33,7 @@
 			<version>${jersey.version}</version>
 		</dependency>
 		
-		<dependency>
+		<!--dependency>
 			<groupId>com.owlike</groupId>
 			<artifactId>genson</artifactId>
 			<version>1.2</version>
@@ -43,7 +43,7 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 			<scope>provided</scope>
-		</dependency>
+		</dependency-->
 		
 	</dependencies>
 
