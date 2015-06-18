@@ -22,32 +22,32 @@
 			<artifactId>solr-solrj</artifactId>
 			<version>${lucene.version}</version>
 		</dependency>
-		<!--dependency>
+		<dependency>
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-core</artifactId>
 			<version>${lucene.version}</version>
-			<exclusions>
+			<!--exclusions>
 				<exclusion>
 					<artifactId>servlet</artifactId>
 					<groupId>javax.servlet</groupId>
 				</exclusion>
-			</exclusions>
-		</dependency-->
-		<!--dependency>
+			</exclusions-->
+		</dependency>
+		<dependency>
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-test-framework</artifactId>
 			<version>${lucene.version}</version>
-			<exclusions>
+			<!--exclusions>
 				<exclusion>
 					<groupId>javax.servlet</groupId>
 				</exclusion>
-			</exclusions>
-		</dependency-->
-		<!--dependency>
+			</exclusions-->
+		</dependency>
+		<dependency>
 			<groupId>org.apache.solr</groupId>
 			<artifactId>solr-dataimporthandler</artifactId>
 			<version>${lucene.version}</version>
-		</dependency-->
+		</dependency>
 	</dependencies>
 
 </project>
