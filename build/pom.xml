@@ -36,6 +36,7 @@
 		<module>../mongo</module>
 		<module>../mysql</module>
 		<module>../stanford</module>
+		<module>../word2vec</module>
 	</modules>
 
 </project>
