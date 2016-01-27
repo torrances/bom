@@ -13,8 +13,8 @@
 	<description>Stanford CoreNLP Library and Models</description>
 
 	<properties>
-		<corenlp.version>3.4</corenlp.version>
-		<corenlp-models.version>3.4.1</corenlp-models.version>
+		<corenlp.version>3.5.2</corenlp.version>
+		<corenlp-models.version>3.5.2</corenlp-models.version>
 	</properties>
 
 	<dependencies>
