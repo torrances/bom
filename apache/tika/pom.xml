@@ -13,7 +13,7 @@
 	<description>The Apache Tika toolkit detects and extracts metadata and text from over a thousand different file types</description>
 
 	<properties>
-		<tika.version>1.8</tika.version>
+		<tika.version>1.22</tika.version>
 	</properties>
 
 	<dependencies>
