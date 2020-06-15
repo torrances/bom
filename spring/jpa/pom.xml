@@ -14,7 +14,7 @@
 
 	<properties>
 		<spring-context.version>4.1.3.RELEASE</spring-context.version>
-		<spring-core.version>4.1.3.RELEASE</spring-core.version>
+		<spring-core.version>4.3.19.RELEASE</spring-core.version>
 		<spring-jdbc.version>4.1.3.RELEASE</spring-jdbc.version>
 		<spring-data-commons-core.version>1.4.1.RELEASE</spring-data-commons-core.version>
 		<spring-data-jpa.version>1.7.1.RELEASE</spring-data-jpa.version>
